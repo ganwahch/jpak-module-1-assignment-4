@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+</head>
+
+<body>
+    <div style="margin: 0 auto; width:52%; padding: 10px;">
+
+        <table style="    border-spacing: 0;" align="center">
+            <tr>
+                <th bgcolor="#a4dd9e">
+                    <font color="black" size="+2">&nbsp; Step 1: Account &nbsp;</font>
+                </th>
+                <th bgcolor="#a4dd9e">
+                    <font color="black" size="+2">&nbsp; Step 2: Personal Details &nbsp;</font>
+                </th>
+                <th bgcolor="#72a3de">
+                    <font color="black" size="+2">&nbsp; Step 3: Your Review &nbsp;</font>
+                </th>
+            </tr>
+        </table>
+        <br><br>
+        <form action="success.html" id="step">
+            <font size="+2">
+                <fieldset>
+                    <legend>Your Review</legend><br>
+                    <label>How did you here about us? </label>
+                    <select name="" id="" required>
+                        <option value="">Select your option</option>
+                        <option value="">Facebook</option>
+                        <option value="">Google</option>
+                        <option value="">Friend</option>
+                </select>
+
+                    <br><br>
+                    <label>Would you visit again?</label><br>
+                    <input type="radio" name="visit" value="Yes" required>Yes
+                    <input type="radio" name="visit" value="No" required>No
+                    <input type="radio" name="visit" value="Maybe" required>Maybe <br><br>
+                    <span>Comments:</span><br>
+                    <textarea cols="40" rows="4" placeholder="Enter your comments here" required></textarea><br>
+                    <span>Documents:</span><br>
+                    <input type="file"><br>
+                    <input type="checkbox" checked>Sign me up for email uptades <br><br>
+                    <a href="step2.html"><img src="Images/back.png"></a>
+                    <button style="padding: 0; border: none; background: none;"><img src="Images/submit.png"></button>
+                </fieldset>
+            </font>
+        </form>
+    </div>
+</body>
+
+</html>
